@@ -1,0 +1,57 @@
+// ================= 4️⃣ index.html (PURE BROWSER SAFE) =================
+/*
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>SmartStores Pro</title>
+</head>
+<body style="margin:0;background:#0f172a;color:white;font-family:sans-serif">
+
+  <div style="display:flex;gap:8px;padding:10px;background:#1e293b">
+    <button onclick="api.back()">◀</button>
+    <button onclick="api.forward()">▶</button>
+    <button onclick="api.reload()">⟳</button>
+    <button onclick="newTab()">＋</button>
+  </div>
+
+  <div id="tabs" style="display:flex;background:#020617"></div>
+
+  <script>
+    let tabCount = 1;
+    let active = 0;
+
+    function renderTabs() {
+      const el = document.getElementById('tabs');
+      el.innerHTML = '';
+
+      for (let i = 0; i < tabCount; i++) {
+        const tab = document.createElement('div');
+        tab.innerText = 'Tab ' + (i + 1);
+        tab.style.padding = '8px 14px';
+        tab.style.cursor = 'pointer';
+        tab.style.background = i === active ? '#1e293b' : 'transparent';
+
+        tab.onclick = () => {
+          active = i;
+          api.switchTab(i);
+          renderTabs();
+        };
+
+        el.appendChild(tab);
+      }
+    }
+
+    function newTab() {
+      tabCount++;
+      active = tabCount - 1;
+      api.newTab();
+      renderTabs();
+    }
+
+    renderTabs();
+  </script>
+
+</body>
+</html>
+*/
