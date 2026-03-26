@@ -1,0 +1,17 @@
+// ================= 1️⃣ package.json =================
+/*
+{
+  "name": "smartstores-pro",
+  "version": "3.3.0",
+  "main": "main.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "echo 'DO NOT USE VITE/ROLLUP HERE'"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
+*/
