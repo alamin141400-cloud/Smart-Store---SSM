@@ -10,16 +10,16 @@
   },
   "devDependencies": {
     "electron": "^30.0.0"
-  }
+  },
   "build": {
-  "appId": "com.smartstore.ssm",
-  "files": [
-    "main.js",
-    "renderer/**",
-    "package.json"
-  ],
-  "win": {
-    "target": "nsis"
+    "appId": "com.smartstore.ssm",
+    "files": [
+      "main.js",
+      "renderer/**",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    }
   }
-}
 }
