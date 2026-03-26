@@ -1,7 +1,7 @@
 {
   "name": "smartstores-pro",
   "version": "3.3.0",
-  "main": "main.js",
+  "main": "src/main.js",
   "type": "commonjs",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
   "build": {
     "appId": "com.smartstore.ssm",
     "files": [
-      "main.js",
+      "src/main.js",
       "renderer/**",
       "package.json"
     ],
